@@ -17,7 +17,7 @@ db = mysql.connector.connect(
 mycursor = db.cursor(buffered=True)
 
 logger = logging.getLogger(__name__)
-updater = Updater('PUT YOUR BOT TOKEN', use_context=True)
+updater = Updater('6206599982:AAECqgU3Os4kTjSuS_Zz-zcM7JZHWdvbI10', use_context=True)
 
 
 def error(update, context):
