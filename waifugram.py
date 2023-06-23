@@ -10,9 +10,9 @@ from telegram.ext import MessageHandler, Filters
 
 db = mysql.connector.connect(
     host="localhost",
-    user="PUT YOUR ROOT",
-    passwd="PUT YOUR PASSWORD",
-    database="PUT YOUR DB",
+    user="tiny",
+    passwd="fu-XueiypuatmWFxv5GlJ0aeNBAgRvUl",
+    database="postgres://kzhiulnu:fu-XueiypuatmWFxv5GlJ0aeNBAgRvUl@tiny.db.elephantsql.com/kzhiulnu",
     autocommit=True)
 mycursor = db.cursor(buffered=True)
 
