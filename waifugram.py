@@ -9,7 +9,7 @@ from telegram import *
 from telegram.ext import MessageHandler, Filters
 
 db = mysql.connector.connect(
-    host="localhost",
+    host="tiny.db.elephantsql.com",
     user="kzhiulnu",
     passwd="fu-XueiypuatmWFxv5GlJ0aeNBAgRvUl",
     database="postgres://kzhiulnu:fu-XueiypuatmWFxv5GlJ0aeNBAgRvUl@tiny.db.elephantsql.com/kzhiulnu",
